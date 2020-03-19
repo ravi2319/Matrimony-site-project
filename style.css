@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    font-family: Dancing Script;
 }
 
 .overlay {
@@ -20,6 +21,7 @@ body {
 }
 .navbar {
     background: #6ab446;
+    font-family: Pacifico;
 }
 
 .nav-link, .navbar-brand {
@@ -45,6 +47,8 @@ body {
     top: 45%;
     transform: translate(-50%, -55%);
     text-align: center;
+    font-family: Dancing Script;
+    font-weight: 100;
 }
 
 .description h1{
@@ -75,12 +79,14 @@ body {
     text-align: center;
     margin: 1em auto;
     color: #333;
+    font-family: Dancing Script;
 }
 
 .features {
     margin: 4em auto;
     padding: 1em;
     position: relative;
+    font-family: Dancing Script;
 }
 
 .feature-title {
@@ -118,6 +124,7 @@ body {
     background-color: #222;
     color: #ccc;
     padding: 60px 0 30px;
+    font-family: Dancing Script;
 }
 
 .footer-copyright {
