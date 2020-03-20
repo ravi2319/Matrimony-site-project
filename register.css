@@ -1,0 +1,144 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #f2f6e9;
+}
+
+.navbar {
+    background: #6ab446;
+    font-family: Pacifico;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color : #000;   
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('images/background-register.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-family: Dancing Script;
+    font-weight: 100;
+}
+
+.description h1{
+    color: #6ab446;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.description button:hover {
+    background: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+*[role="form"] {
+    max-width: 5300px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #ecf5d4;
+    font-family: Dancing Script;
+}
+
+*[role="form"] h2 { 
+    font-family: Pacifico;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.container .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    font-family: Dancing Script;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+
+@media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .container {
+      margin: 0;
+    }
+  }
