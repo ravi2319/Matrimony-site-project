@@ -1,0 +1,108 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #f2f6e9;
+}
+.header {
+    background-image: url('images/profile-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: Dancing Script;
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-family: Dancing Script;
+    font-weight: 100;
+}
+
+.description h1{
+    color: #6ab446;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.description button:hover {
+    background: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.navbar {
+    background: #6ab446;
+    font-family: Pacifico;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color : #000;   
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    font-family: Dancing Script;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
